@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Ocampo - Desarrollador Frontend Junior</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AO</div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#cv">Curriculum</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="https://github.com/alexoca1" target="_blank" class="social-nav">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1>Alexander Ocampo Hernandez</h1>
+            <p>Desarrollador Frontend Junior especializado en Vue.js y soluciones eficientes</p>
+            <div class="hero-actions">
+                <a href="#proyectos" class="btn">Ver Proyectos</a>
+                <a href="https://www.linkedin.com/in/alexanderocampoh/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+            </div>
+        </section>
+
+        <section id="sobre-mi">
+            <h2>Sobre Mi</h2>
+            <div class="content">
+                <p>Soy programador web con enfoque en el desarrollo frontend, cursando actualmente el grado superior de DAM. Mi formación previa en Ingenieria Industrial me aporta una capacidad analitica critica para resolver problemas complejos de forma estructurada.</p>
+                <p>Mi stack principal incluye HTML5, CSS3 y JavaScript con Vue.js, aunque tambien manejo tecnologias backend como Java y PHP para ofrecer una vision global en cada desarrollo.</p>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3>Eventos Culturales Puertollano</h3>
+                    <p>Sistema de gestion con roles de administrador e invitado. Desarrollado con Vue.js 2 y LocalStorage para persistencia.</p>
+                    <div class="tags">
+                        <span>Vue.js</span> <span>Maps API</span> <span>CSS3</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/alexoca1/eventos-culturales-Vue.js" target="_blank">Repositorio</a>
+                        <a href="https://alexoca1.github.io/eventos-culturales-Vue.js/" target="_blank">Demo</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Gestion ITV Concesionarios</h3>
+                    <p>Automatizacion de procesos automotrices con calculo automatico de costes y generacion de informes exportables.</p>
+                    <div class="tags">
+                        <span>JavaScript</span> <span>Animaciones CSS</span> <span>JSON</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/alexoca1/ITVGestionConcesionario" target="_blank">Repositorio</a>
+                        <a href="https://alexoca1.github.io/ITVGestionConcesionario/" target="_blank">Demo</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="cv">
+            <h2>Curriculum Vitae</h2>
+            <p>Puedes visualizar mi trayectoria profesional detallada o descargar mi CV en formato PDF para procesos de seleccion.</p>
+            <a href="Profile.pdf" class="btn" download>Descargar CV</a>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Buscas un perfil tecnico para tu equipo? Hablemos a traves del formulario o mis redes sociales.</p>
+            <div class="contact-container">
+                <form id="contact-form">
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Mensaje" rows="5" required></textarea>
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/alexanderocampoh/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/alexoca1" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Alexander Ocampo. Perfil profesional en GitHub y LinkedIn.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
